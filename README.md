@@ -4,7 +4,5 @@ This program tries to predict quite poorly (around 48% accurate according to eva
 
 I wanted to complete this project relatively quickly, and couldn't figure out a way to get post data easily from a facebook page via web scraping/crawling frameworks or APIs. After cambridge analytica, facebook's graph API does not give away as much information as it once did, and also the website itself isn't really friendly towards scraping tools. so I scrolled for about an hour, copy and pasted on screen text into a .txt file, and used regular expressions to extract posts, dates, and reaction data.
 
-many improvements can still be made
-
 
 
