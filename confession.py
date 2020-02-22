@@ -56,7 +56,8 @@ def main():
     svm_classifier.fit(training_posts_vectors, training_classifications)
 
 
-    print("average number of reactions to posts this year is: %f" % p.get_avg_num_reactions())
+    # print("average number of reactions to posts this year is: %f" % p.get_avg_num_reactions())
+    print("will your post get less than or greater than 100 reactions?")
     while True:
         pending_post = input("enter pending post: ")
         pp_as_list = [pending_post]
@@ -65,6 +66,8 @@ def main():
 
 
     #EVALUATION
+
+
     # print(svm_classifier.score(testing_posts_vectors, testing_classifications))
 
 
